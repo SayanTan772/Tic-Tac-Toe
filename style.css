@@ -81,6 +81,7 @@ main .grid-box .fa-circle{
     .overlay .text{
         font-size:50px;
         margin-bottom:15px;
+        text-align:center;
     }
     .overlay button{
         width:200px;
