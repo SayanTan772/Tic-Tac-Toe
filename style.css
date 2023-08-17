@@ -73,7 +73,7 @@ main .grid-box .fa-circle{
 @media screen and (max-width: 426px){
     main{
         width:90%;
-        height:60%;
+        height:50%;
     }
     main .grid-box{
         font-size:90px;
