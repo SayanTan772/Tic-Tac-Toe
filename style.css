@@ -58,17 +58,17 @@ main .grid-box .fa-circle{
 .overlay button{
     width:240px;
     height:70px;
-    background-color:#1187fd;
+    background-color:#212020;
     border-radius:10px;
     font-size:28px;
-    color:#f5f5f5;
+    color:#ffffff;
     cursor:pointer;
-    box-shadow:0px 0px 20px 5px rgba(0,0,0,0.2);
+    /*box-shadow:0px 0px 20px 5px rgba(0,0,0,0.2);*/
     outline:none;
     border:none;
 }
 .overlay button:hover{
-    background-color:#0381fe;
+    background-color:#151414;
 }
 @media screen and (max-width: 426px){
     main{
