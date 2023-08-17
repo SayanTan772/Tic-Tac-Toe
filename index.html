@@ -32,13 +32,13 @@
         box.addEventListener("mousemove", () => {
             if (!gameBoard[box.dataset.rowValue][box.dataset.columnValue]) { // checks if the grid box has already been filled
                 if (flag == 1) { // first player's turn
-                    box.style.backgroundColor = "#1187fd";
+                    box.style.backgroundColor = "#807f7f";
                     box.querySelector(".fa-times").style.display = "block";
                     box.querySelector(".fa-circle").style.display = "none"; // Hide circle
                     box.querySelector(".fa-times").style.color = "#ECECEC";
                     box.style.textShadow = "4px 0px 10px #4242426c";
                 } else { // second player's turn
-                    box.style.backgroundColor = "#1187fd";
+                    box.style.backgroundColor = "#807f7f";
                     box.querySelector(".fa-circle").style.display = "block";
                     box.querySelector(".fa-times").style.display = "none"; // Hide X
                     box.querySelector(".fa-circle").style.color = "#ECECEC";
